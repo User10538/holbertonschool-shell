@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -u -t $'\t' -k1,1 | uniq -c | sort -nr | head -n 11
+sort -t $'\t' -k1,1 | uniq -c | sort -nr | head -n 11
